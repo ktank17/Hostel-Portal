@@ -1,0 +1,100 @@
+a:-webkit-any-link {
+	text-decoration: none!important;
+	color: white!important;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background: #1c1c1c;
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	color: white;
+}
+
+.call-at {
+
+}
+.left-padding {
+	padding: 5px;
+}
+
+.register {
+    display: inline;
+    padding: 5px 15px;
+    background: rgba(240,120,120,1);
+}
+
+.menu-bar {
+    height: 120px;
+    margin: 0 8%;
+}
+
+.menu-bar .icon {
+	width: 35%;
+	height: 100%;
+	display: inline-block;
+}	
+
+.menu-bar .link {
+    width: 60%;
+    display: inline;
+    height: 100%;
+    float: right;
+}
+
+.menu-item {
+	width: 19%;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    height: 100%;
+    float: left;
+    display: table;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.menu-item div {
+	vertical-align: middle;
+	display: table-cell;
+	font-weight: bold;
+}
+
+.slick-next {
+	right: 10px!important;
+}
+
+.slick-prev {
+    left: 10px!important;
+}
+.footer {
+	height: 350px;
+	background: #1c1c1c;
+}
+
+.footer .container {
+	margin: 0 8%;
+	height: 100%;
+	color: white;
+}
+
+.block {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    padding: 0 5px;
+}
+
+.box-header {
+	border-bottom: 1px solid #ffa500;
+	padding: 10px;
+	font-family: 'Poiret One', cursive;
+}
+.box-content i {
+	padding: 5px;
+	font-size: 35px;
+}
